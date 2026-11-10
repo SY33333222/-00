@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 
 # 👇把下面引号里的内容换成你第一步复制的 Token
-BOT_TOKEN = "你的Token填在这里"
+BOT_TOKEN = "9130375007:AAF-TtOTjpxCSRny_br0GOLwwq6gY-UMIEo"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'menu'])
